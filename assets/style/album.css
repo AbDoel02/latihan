@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'American_Idiot';
+    src: url(../fonts/American_Idiot/American_Idiot.woff) format('woff');
+}
+
+body {
+  background-color: #121212; 
+  font-family: 'DM Sans', sans-serif;
+  color: #f1f3f5; 
+  background-image:
+    radial-gradient(#ffffff05 1px, transparent 0),
+    radial-gradient(#ffffff05 1px, transparent 0);
+  background-size: 3px 3px, 7px 7px;
+  background-position: 0 0, 10px 10px;
+}
+
+.navbar-brand {
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-family: 'American_Idiot';
+}
+
+span {
+    color: #dc3545;
+}
+
+.dropdown-item {
+    color: #f1f3f5;
+}
+
+.content-divider {
+    margin: 1rem 0;
+    height: 1px;
+    background: linear-gradient(
+        to right, transparent, 
+        #dc3545, transparent
+    );
+}
+
+.nav-link {
+    border-radius: 5px;
+    color: #f1f3f5;
+}
+
+.nav-link:hover {
+    
+    background-color: #dc3545;
+    text-decoration: none ;
+    
+}
+
+.dropdown-item:hover {
+    color: #f1f3f5;
+    background-color: #dc3545;
+    text-decoration: none ;
+    border-radius: 5px;
+}
+
+.nav-link:active {
+    opacity: 0.75;
+}
+
+.dropdown-menu:active {
+    opacity: 0.75;
+}
+
+.dropdown-divider {
+    background-color: #f1f3f5;
+}
+
+.name {
+    font-family: 'American_Idiot' , sans-serif;
+    font-size: 35px; letter-spacing: 2px;
+}
+
+h6 {
+    padding-left:8px ;
+}
+
+.b {
+    letter-spacing: 2px;
+    color: #adb5bd;
+    text-decoration: none;
+}
+.b:hover {
+    color: #dc3545;
+    text-decoration: underline;
+}
